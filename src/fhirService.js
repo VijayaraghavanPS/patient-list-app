@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'https://hapi.fhir.org/baseR4';
+const BASE_URL = 'http://localhost:8080/';
 
 export const getPatients = async () => {
     try {
